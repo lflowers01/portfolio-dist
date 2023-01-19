@@ -1,0 +1,18 @@
+#about {
+  #hero {
+    padding: 2rem;
+    max-width: 62rem;
+    margin: 0 auto;
+    margin-top: 30vh;
+    > * {
+      margin: 0;
+    }
+    > p {
+      padding: 1.5rem 0rem;
+      @media (min-width: 40rem) {
+        // will only apply if in desktop mode -
+        width: 55%;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+html {
+  background-color: $black;
+  color: $dark;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.mono {
+  font-family: "SF Mono", sans-serif;
+  color: $accent;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: $white;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+p,
+a {
+  font-size: clamp(0.75rem, 1vw, 1rem);
+  .mono {
+    font-size: calc(clamp(0.75rem, 1vw, 1rem) - 2px);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $accent;
+}
+
+.btn > * {
+  text-decoration: none;
+  border: 0.125rem solid $accent;
+  padding: 1rem 1.25rem !important;
+  border-radius: 0.5rem;
+  transition: all 300ms ease-in-out;
+  &:hover {
+    background-color: transparentize($color: $accent, $amount: 0.8);
+  }
+  &:not(:hover) {
+    background-color: transparent;
+  }
+}
