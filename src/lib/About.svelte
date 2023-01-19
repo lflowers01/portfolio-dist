@@ -6,7 +6,7 @@
   <h2>I am a computer science student.</h2>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque laborum corrupti inventore tempore eaque cum, molestiae consequatur vero aliquid est.</p>
   <p class="btn">
-    <a href="#">Button</a>
+    <a href="/">Button</a>
   </p>
 </div>
   
